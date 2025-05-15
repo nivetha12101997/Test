@@ -15,7 +15,7 @@ export const ListComponent = () => {
         { imageUri: Frame6, details: { title: 'Association', description: 'Organize events, ranking, club managemnets' } }
     ]
 
-    const renderItem = (item, index) => {
+    const renderItem = ({item, index}) => {
         return (
             <View style={[style.cardLayout,style.cardContainer]}>
                 <View>
